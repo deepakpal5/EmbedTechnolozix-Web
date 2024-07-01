@@ -240,7 +240,7 @@ footer {
   color: white;
   flex-wrap: wrap;
 }
-/*.social-media a {
+ .social-media a {
   color: white;
   margin: 20px;
   border-radius: 5px;
@@ -251,7 +251,7 @@ footer {
   color: white;
   background-color: black;
 }
-.social-media a:hover ion-icon {
+/* .social-media a:hover ion-icon {
   color: red;
   transform: translateY(5px);
 } */
