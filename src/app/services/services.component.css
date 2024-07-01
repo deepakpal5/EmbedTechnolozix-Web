@@ -222,7 +222,7 @@ header a ion-icon {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(43, 202, 123);
   align-items: center;
   color: white;
 }
@@ -232,40 +232,27 @@ footer {
   flex-direction: column;
   align-items: center;
   color: white;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 .social-media {
   display: flex;
   justify-content: center;
   color: white;
-  flex-wrap: wrap;
+  flex-wrap: row;
+  align-items: row;
 }
-.social-media a {
-  color: white;
-  margin: 20px;
-  border-radius: 5px;
-  margin-top: 10px;
-  color: white;
-}
-.social-media a ion-icon {
-  color: white;
-  background-color: black;
-}
-.social-media a:hover ion-icon {
-  color: red;
-  transform: translateY(5px);
-}
+
 .footer2 {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
   text-decoration: none;
-  flex-wrap: wrap;
+  flex-wrap: row;
 }
 .footer0 {
-  font-weight: 1200;
-  transition-duration: 1s;
+  font-weight: 100;
+  transition-duration: 10s;
 }
 .footer0:hover {
   color: rgb(243, 168, 7);
@@ -307,176 +294,64 @@ footer {
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 1250px) {
-  .heading ul li {
-    display: none;
-  }
 
-  .items {
-    transform: scale(0.9);
-  }
-  .img-slider img {
-    height: 60vw;
-    width: 80vw;
-  }
-  .ham:active {
+
+.fa {
+  padding: 8px;
+  font-size: 50x;
+  width: 30px;
+  /* text-align: center; */
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 120%;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
     color: red;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .menu a ion-icon {
-    position: absolute;
-  }
+    transform: translateY(5px);
+}
 
-  @keyframes slide1 {
-    0% {
-      left: 0vw;
-    }
-    15% {
-      left: 0vw;
-    }
-    20% {
-      left: -80vw;
-    }
-    32% {
-      left: -80vw;
-    }
-    35% {
-      left: -160vw;
-    }
-    47% {
-      left: -160vw;
-    }
-    50% {
-      left: -240vw;
-    }
-    63% {
-      left: -240vw;
-    }
-    66% {
-      left: -320vw;
-    }
-    79% {
-      left: -320vw;
-    }
-    82% {
-      left: -400vw;
-    }
-    100% {
-      left: 0vw;
-    }
-  }
-  .menu ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    left: 0;
-    top: 0;
-    z-index: 11;
-    align-items: center;
-    justify-content: center;
-    opacity: 1;
-  }
-  .close {
-    z-index: 34;
+.fa-facebook {
+  background: #3B5998;
+  color: rgb(255, 255, 255);
 
-    color: white;
-    background-color: black;
-  }
-  .close:active {
-    color: red;
-  }
-  .menu ul li {
-    list-style: none;
-    margin: 20px;
-    border-top: 3px solid white;
-    width: 80%;
-    text-align: center;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
-    padding-top: 10px;
-  }
-  .menu ul li a {
-    text-decoration: none;
-    padding-top: 10px;
-    color: white;
-    font-weight: 900;
-  }
-  .menu ul li a:hover {
-    color: rgb(240, 197, 6);
-  }
-  .img-slider {
-    display: flex;
-    float: left;
-    position: relative;
-    width: 80%;
-    height: 60%;
-    animation-name: slide1;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    transition-duration: 2s;
-  }
-  .section1 {
-    width: 80%;
-    overflow: hidden;
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-  }
-
-  .heading1 {
-    opacity: 1;
-    position: relative;
-    bottom: 8px;
-  }
-  .search a {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  .heading1 .ham {
-    background-color: black;
-    color: white;
-  }
-  #input {
-    width: 200px;
-    flex-shrink: 2;
-  }
-  header {
-    height: 150px;
-  }
-} */
-/* @media screen and (max-width: 550px) {
-  .heading ul li {
-    display: none;
-  }
-  .heading1 {
-    opacity: 1;
-
-    bottom: 8px;
-  }
-
-  header {
-    height: 250px;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-  }
-  #input {
-    width: 150px;
-  }
-  .close {
-    z-index: 34;
-  }
-
-  .search a {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-} */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-whatsapp {
+  background: #125688;
+  color: white;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+h1, h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+.service {
+  margin-bottom: 30px;
+}
+.service img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
