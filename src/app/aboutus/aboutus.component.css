@@ -307,7 +307,7 @@ footer {
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px) {
   .heading ul li {
     display: none;
   }
@@ -451,8 +451,8 @@ footer {
   header {
     height: 150px;
   }
-} */
-/* @media screen and (max-width: 550px) {
+}
+@media screen and (max-width: 550px) {
   .heading ul li {
     display: none;
   }
@@ -479,4 +479,4 @@ footer {
     display: flex;
     flex-wrap: nowrap;
   }
-} */
+}
